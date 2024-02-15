@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Rubik;
+  src: url(./../fonts/Rubik-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(./../img/bcg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body .screen_content {
+  width: 380px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-radius: 16px;
+  border: 16px solid rgba(35, 31, 31, 0.73);
+}
+body .screen_content .screen {
+  display: flex;
+  border-radius: 16px;
+  width: 356px;
+  height: 526px;
+  padding: 50px;
+  background-color: rgba(42, 80, 195, 0.644);
+}
+body .screen_content .screen .apps {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: transparent;
+  justify-content: space-between;
+}
+body .screen_content .screen .apps .app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .screen_content .screen .apps .app img {
+  width: 120px;
+  height: 122px;
+  border-radius: 50%;
+}
+body .screen_content .screen .apps .app span {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

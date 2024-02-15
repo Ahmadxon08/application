@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Rubik;
+  src: url(./../fonts/Rubik-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+body{
+    background-image:url(./../img/bcg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .screen_content{
+        width: 380px;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 80px;
+        border-radius: 16px;
+        border: 16px solid rgba(35, 31, 31, 0.73);
+        
+       
+        .screen{
+      
+            display: flex;
+            border-radius: 16px;
+            width: 356px;
+            height: 526px;
+            padding: 50px;
+            background-color: rgba(42, 80, 195, 0.644);
+        
+            .apps{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                background: transparent;
+                justify-content:space-between;
+                .app{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    img{
+                        width: 120px;
+                        height: 122px;
+                        border-radius: 50%;
+                    }
+                    span{
+                        font-family: Rubik;
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: aliceblue;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
